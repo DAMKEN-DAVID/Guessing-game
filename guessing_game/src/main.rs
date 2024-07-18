@@ -9,7 +9,7 @@ fn check_guess(guess: i32, secret: i32) -> i32 {
 }
 
 fn main() {
-    let secret = 42; // Hard-coded secret number
+    let secret = 12; // Hard-coded secret number
     let mut guess_count = 0;
     let mut guess = 0; // Initial guess value, you can change it to simulate user input
 
